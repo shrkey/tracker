@@ -334,16 +334,17 @@ var museums = L.geoJson(null, {
 $.getJSON("data/DOITT_MUSEUM_01_13SEPT2010.geojson", function (data) {
   museums.addData(data);
 });
-
+*/
 map = L.map("map", {
   zoom: 10,
   center: [40.702222, -73.979378],
-  layers: [mapquestOSM, boroughs, markerClusters, highlight],
+  layers: [mapquestOSM, markerClusters, highlight],
   zoomControl: false,
   attributionControl: false
 });
-*/
+
 /* Layer control listeners that allow for a single markerClusters layer */
+
 map.on("overlayadd", function(e) {
   /*
   if (e.layer === theaterLayer) {
@@ -365,6 +366,7 @@ map.on("overlayremove", function(e) {
   }
   */
 });
+
 
 /* Clear feature highlight when map is clicked */
 map.on("click", function(e) {
