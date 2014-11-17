@@ -1,10 +1,7 @@
-BootLeaf
+Tracker
 ========
 
-A simple, responsive template for building web mapping applications with [Bootstrap](http://getbootstrap.com/), [Leaflet](http://leafletjs.com/), and [typeahead.js](http://twitter.github.io/typeahead.js/).
-
-### Demo:
-http://bmcbride.github.io/bootleaf/
+A simple, responsive template for tracking GPS enabled communicating devices built with [Bootstrap](http://getbootstrap.com/), [Leaflet](http://leafletjs.com/), and [typeahead.js](http://twitter.github.io/typeahead.js/).
 
 ### Features:
 * Fullscreen mobile-friendly map template with responsive Navbar and modal placeholders
@@ -13,6 +10,10 @@ http://bmcbride.github.io/bootleaf/
 * Elegant client-side multi-layer feature search with autocomplete using [typeahead.js](http://twitter.github.io/typeahead.js/)
 * Responsive sidebar feature list with sorting and filtering via [list.js](http://listjs.com/)
 * Marker icons included in grouped layer control via the [grouped layer control plugin](https://github.com/ismyrnow/Leaflet.groupedlayercontrol)
+
+### Acknowledgments
+
+* Based on [Bootleaf](https://github.com/bmcbride/bootleaf) by [Bryan McBride](http://bryanmcbride.com/)
 
 ### Screenshots:
 
