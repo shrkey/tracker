@@ -4,6 +4,10 @@
 
   $parsed_url = parse_url($url);
   $host = explode('.', $parsed_url['host']);
+  
+  echo "<!--";
+  print_r( $host );
+  echo "-->";
 
   switch( strtolower( $host[0] ) ) {
 
