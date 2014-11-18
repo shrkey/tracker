@@ -6,7 +6,7 @@
   $host = explode('.', $parsed_url['host']);
   
   echo "<!--";
-  print_r( $host );
+  print_r( $parsed_url );
   echo "-->";
 
   switch( strtolower( $host[0] ) ) {

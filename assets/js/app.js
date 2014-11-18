@@ -465,6 +465,9 @@ $("#searchbox").click(function () {
   $(this).select();
 });
 
+// Here until we switch on the ajax
+$("#loading").hide();
+
 /* Typeahead search functionality */
 $(document).one("ajaxStop", function () {
   $("#loading").hide();
