@@ -468,6 +468,10 @@ $("#searchbox").click(function () {
 // Here until we switch on the ajax
 $("#loading").hide();
 
+// Hide the sidebar
+$("#sidebar-hide-btn").click();
+
+
 /* Typeahead search functionality */
 $(document).one("ajaxStop", function () {
   $("#loading").hide();
