@@ -3,11 +3,7 @@
   $url = $_SERVER['HTTP_HOST'];
 
   $parsed_url = parse_url($url);
-  $host = explode('.', $parsed_url['host']);
-  
-  echo "<!--";
-  print_r( $parsed_url );
-  echo "-->";
+  $host = explode('.', $parsed_url['path']);
 
   switch( strtolower( $host[0] ) ) {
 
